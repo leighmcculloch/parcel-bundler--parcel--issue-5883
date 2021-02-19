@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "description": "",
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --no-source-maps --no-minify"
+  },
+  "author": "Leigh McCulloch",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "postcss": "^8.2.6",
+    "sass": "^1.32.7"
+  },
+  "dependencies": {
+    "jspreadsheet-ce": "^4.6.0",
+    "jszip": "^3.6.0",
+    "parcel": "^2.0.0-beta.1"
+  }
+}
